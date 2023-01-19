@@ -28,3 +28,41 @@ class Calculation //class
 ```
 
 </details>
+
+## OPP Class  Overview
+<details>
+<summary> Click Here </summary>
+
+1. How to Create Constructors function
+- Note:Constructors are special member functions for initial settings of newly created object instances from a class, which is the key part of the object-oriented concept in PHP5.
+```php
+
+function __construct()
+       {
+       // initialize the object and its properties by assigning 
+       //values
+       }
+
+class person{
+    public $name;
+    public $age;
+
+    function __construct($name='sohag',$age=23){
+       $this->name=$name;
+       $this->age=$age;
+    }
+    function show(){
+        echo $this->name."-".$this->age;
+    }
+}
+
+$p =new person();
+// $p->name="nur";
+// $p->age=23;
+$p->show();
+
+
+
+```
+
+</details>
