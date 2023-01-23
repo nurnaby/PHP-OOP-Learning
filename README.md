@@ -29,7 +29,7 @@ class Calculation //class
 
 </details>
 
-## OPP Class  Overview
+## OPP Constructors  Overview
 <details>
 <summary> Click Here </summary>
 
@@ -60,6 +60,20 @@ $p =new person();
 // $p->name="nur";
 // $p->age=23;
 $p->show();
+
+
+
+```
+
+</details>
+
+## OPP Interitance  Overview
+<details>
+<summary> Click Here </summary>
+
+1. How to Create Inheritance function
+- In inheritance, you have a parent class with properties and methods, and a child class can use the code from the parent class.
+```php
 
 
 
