@@ -78,5 +78,35 @@ $p->show();
 
 
 ```
+</details>
 
+
+
+## OPP Interitance  Overview
+<details>
+<summary> Click Here </summary>
+
+1. How to Create Inheritance function
+- In inheritance, you have a parent class with properties and methods, and a child class can use the code from the parent class.
+```php
+
+```
+</details>
+
+## OPP Abstract Class  Overview
+<details>
+<summary> Click Here </summary>
+
+1. An abstract class is a class that cannot be instantiated. Typically, an abstract defines an interface for other classes to extend.
+
+To define an abstract class, you add the abstract keyword as follows:
+
+```php
+<?php
+
+abstract class className
+{
+   // ...
+}
+```
 </details>
